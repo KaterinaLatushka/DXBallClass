@@ -39,7 +39,7 @@ public class ball : MonoBehaviour
         }
         else if (collison.gameObject.CompareTag("bottomWall"))
             Debug.Log("Game over");
-            // gameObject.SetActive(false);
+            gameObject.SetActive(false);
             score.addScore(0); // 0 means game over
     }
     
